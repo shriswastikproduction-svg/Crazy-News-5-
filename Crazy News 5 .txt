@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRAZY NEWS 5 | Latest News</title>
+<meta name="description" content="CRAZY NEWS 5 - India, World, Business, Technology and Education News.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6fb;color:#172033}
+header{background:#102a56;color:white;padding:22px 6%}
+.brand{font-size:32px;font-weight:900}
+.brand span{color:#ffd43b}
+.tag{font-size:12px;margin-top:5px;letter-spacing:1px}
+nav{display:flex;gap:20px;flex-wrap:wrap;margin-top:22px}
+nav a{color:white;text-decoration:none;font-size:14px}
+.hero{padding:55px 7%;background:#fff}
+.eyebrow{color:#e63946;font-weight:bold;letter-spacing:2px}
+.hero h1{font-size:clamp(35px,6vw,58px);margin:15px 0}
+.hero h1 span{color:#e63946}
+.hero p{max-width:650px;line-height:1.7;color:#596579}
+.pill{display:inline-block;background:#e63946;color:white;padding:10px 16px;border-radius:30px;font-size:12px;font-weight:bold}
+.section{padding:35px 7%}
+.section h2{font-size:26px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:white;border:1px solid #e1e6ef;border-radius:14px;overflow:hidden}
+.thumb{height:130px;background:linear-gradient(130deg,#173e73,#e63946);display:flex;align-items:center;justify-content:center;color:white;font-size:35px;font-weight:bold}
+.content{padding:18px}
+.category{color:#e63946;font-size:12px;font-weight:bold;text-transform:uppercase}
+.content h3{margin:9px 0}
+.content p{font-size:14px;line-height:1.6;color:#657086}
+.banner{background:#102a56;color:white;padding:28px;border-radius:15px}
+.banner p{color:#d5deed}
+footer{background:#061020;color:#c6d1e2;text-align:center;padding:25px;font-size:13px}
+.founder{color:#ffd43b;font-weight:bold}
+@media(max-width:600px){.brand{font-size:25px}.hero{padding:40px 6%}nav{gap:13px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">CRAZY <span>NEWS 5</span></div>
+  <div class="tag">STAY INFORMED. STAY AHEAD.</div>
+  <nav>
+    <a href="#top5">Top 5 News</a>
+    <a href="#india">India</a>
+    <a href="#world">World</a>
+    <a href="#business">Business</a>
+    <a href="#education">Education</a>
+    <a href="#about">About Us</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="eyebrow">YOUR DAILY NEWS DESTINATION</div>
+  <h1>पाँच बड़ी खबरें,<br><span>एक ही जगह।</span></h1>
+  <p>भारत, दुनिया, बिज़नेस, टेक्नोलॉजी और शिक्षा से जुड़ी अहम खबरें आसान भाषा में। खबरें प्रकाशित करने से पहले उनके स्रोत और तथ्यों की पुष्टि करें।</p>
+  <span class="pill">DAILY TOP 5 UPDATES</span>
+</section>
+
+<section class="section" id="top5">
+  <h2>आज की Top 5 News</h2>
+  <p>यह डेमो सेक्शन है। यहाँ सत्यापित ताज़ा खबरें जोड़ी जाएँगी।</p>
+  <div class="grid">
+
+    <article class="card">
+      <div class="thumb">01</div>
+      <div class="content">
+        <div class="category">India</div>
+        <h3>देश की प्रमुख खबरें</h3>
+        <p>यहाँ राष्ट्रीय समाचार का शीर्षक और सत्यापित विवरण प्रकाशित होगा।</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="thumb">02</div>
+      <div class="content">
+        <div class="category">World</div>
+        <h3>दुनिया की बड़ी अपडेट</h3>
+        <p>यहाँ अंतरराष्ट्रीय घटनाओं की महत्वपूर्ण जानकारी मिलेगी।</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="thumb">03</div>
+      <div class="content">
+        <div class="category">Business</div>
+        <h3>बिज़नेस और इकोनॉमी</h3>
+        <p>बाज़ार, अर्थव्यवस्था और कारोबार से जुड़ी खबरें।</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="thumb">04</div>
+      <div class="content">
+        <div class="category">Technology</div>
+        <h3>टेक्नोलॉजी अपडेट</h3>
+        <p>नई तकनीक, डिजिटल दुनिया और विज्ञान की खबरें।</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="thumb">05</div>
+      <div class="content">
+        <div class="category">Education</div>
+        <h3>एजुकेशन और एग्जाम</h3>
+        <p>UPSC, MPPSC और सरकारी परीक्षाओं से जुड़े अपडेट।</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="section" id="india">
+  <h2>India News</h2>
+  <p>भारत की प्रमुख और सत्यापित खबरें यहाँ प्रकाशित होंगी।</p>
+</section>
+
+<section class="section" id="world">
+  <h2>World News</h2>
+  <p>दुनिया की महत्वपूर्ण घटनाओं की जानकारी यहाँ मिलेगी।</p>
+</section>
+
+<section class="section" id="business">
+  <h2>Business & Technology</h2>
+  <p>बिज़नेस, अर्थव्यवस्था और टेक्नोलॉजी की खबरें।</p>
+</section>
+
+<section class="section" id="education">
+  <h2>Education & Current Affairs</h2>
+  <p>UPSC • MPPSC • Government Jobs • Current Affairs</p>
+</section>
+
+<section class="section" id="about">
+  <div class="banner">
+    <h2>About CRAZY NEWS 5</h2>
+    <p>Stay Informed. Stay Ahead.</p>
+    <p>Founder: <span class="founder">Ashwin Vishkarma</span></p>
+    <p>हमारा उद्देश्य है पाठकों तक महत्वपूर्ण खबरें सरल भाषा में पहुँचाना।</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  © 2026 CRAZY NEWS 5<br>
+  Founder: Ashwin Vishkarma<br>
+  Demo Website — News content अभी manually update करना होगा।
+</footer>
+
+</body>
+</html>
